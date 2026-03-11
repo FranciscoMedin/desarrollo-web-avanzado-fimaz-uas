@@ -8,9 +8,9 @@ $usuarios = [];
 
 try{
 
-    $usuarios[] = new Admin("Carlos Lopez","admin@email.com");
-    $usuarios[] = new Alumno("Ana Torres","ana@email.com","A001");
-    $usuarios[] = new Invitado("Luis Perez","luis@empresa.com","TechCorp");
+    $usuarios[] = new Admin("Paco Morales","admin@email.com");
+    $usuarios[] = new Alumno("Michelle gutierrez","michgu@email.com","A001");
+    $usuarios[] = new Invitado("Alicia Flores","aliflo@empresa.com","TechCorp");
 
     // Usuario con correo inválido
     $usuarios[] = new Alumno("Error Usuario","correo_invalido","A999");
