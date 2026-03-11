@@ -5,7 +5,7 @@ require_once "clases/Alumno.php";
 
 try {
 
-    $admin = new Admin("Carlos Lopez","admin@email.com");
+    $admin = new Admin("Paco Morales","admin@email.com");
 
     echo "Nombre: ".$admin->getNombre()."<br>";
     echo "Correo: ".$admin->getCorreo()."<br>";
@@ -19,7 +19,7 @@ try {
 
 try {
 
-    $alumno = new Alumno("Ana Torres","correo_invalido", "2023001");
+    $alumno = new Alumno("Carlos Sanchez","correo_invalido", "22198024");
 
     echo "Nombre: ".$alumno->getNombre()."<br>";
     echo "Correo: ".$alumno->getCorreo()."<br>";
